@@ -5,6 +5,6 @@ public class Knife extends Weapon{
     //Constructor
     public Knife(){
         weaponName ="Knife";
-        damage = 3;
+        damage = 2;
     }
 }

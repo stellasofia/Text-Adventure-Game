@@ -19,7 +19,7 @@ public class SceneController {
 
 
     public void switchToStartMenu(ActionEvent event) throws IOException {
-        root = FXMLLoader.load(getClass().getResource("start-menu.fxml"));
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("start-menu.fxml")));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow(); //get source of the event and cast it to a node
         scene = new Scene(root);
         stage.setScene(scene);
