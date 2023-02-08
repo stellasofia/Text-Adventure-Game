@@ -4,16 +4,16 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.textadventuregame.SceneController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.textadventuregame.Story">
    <children>
-      <Button fx:id="choice1" layoutX="182.0" layoutY="234.0" mnemonicParsing="false" onAction="#display" prefHeight="31.0" prefWidth="237.0" text="choice 1" />
-      <Button fx:id="choice2" layoutX="182.0" layoutY="265.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="choice 2" />
-      <Button fx:id="choice3" layoutX="182.0" layoutY="296.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="choice 3" />
+      <Button fx:id="choice1" layoutX="182.0" layoutY="234.0" mnemonicParsing="false" onAction="#buttonPressed1" prefHeight="31.0" prefWidth="237.0" text="Head north" />
+      <Button fx:id="choice2" layoutX="182.0" layoutY="265.0" mnemonicParsing="false" onAction="#buttonPressed2" prefHeight="31.0" prefWidth="237.0" text="Head south" />
+      <Button fx:id="choice3" layoutX="182.0" layoutY="296.0" mnemonicParsing="false" onAction="#buttonPressed3" prefHeight="31.0" prefWidth="237.0" text="Head west" />
       <Label layoutX="84.0" layoutY="35.0" text="HP: " />
       <Label layoutX="419.0" layoutY="35.0" text="Weapon: " />
-      <Label fx:id="dialog" layoutX="84.0" layoutY="109.0" text="Dialog" />
+      <Label fx:id="dialog" layoutX="84.0" layoutY="109.0" text="You woke up in the middle of the woods." />
       <Label layoutX="85.0" layoutY="183.0" text="What will you do next?" />
       <Label fx:id="HP" layoutX="108.0" layoutY="35.0" text="15" />
-      <Label fx:id="weapon" layoutX="478.0" layoutY="35.0" text="None" />
+      <Label fx:id="weapon" layoutX="478.0" layoutY="35.0" text="Knife" />
    </children>
 </AnchorPane>
