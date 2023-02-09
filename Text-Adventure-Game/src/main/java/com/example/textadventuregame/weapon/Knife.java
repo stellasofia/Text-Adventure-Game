@@ -1,6 +1,6 @@
-package com.example.textadventuregame;
+package com.example.textadventuregame.weapon;
 
-public class Knife extends Weapon{
+public class Knife extends Weapon {
 
     //Constructor
     public Knife(){

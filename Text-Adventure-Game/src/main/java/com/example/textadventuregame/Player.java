@@ -1,5 +1,7 @@
 package com.example.textadventuregame;
 
+import com.example.textadventuregame.weapon.Weapon;
+
 public class Player {
 
     public int hp;

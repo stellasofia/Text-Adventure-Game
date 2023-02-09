@@ -12,7 +12,7 @@
       <Label layoutX="84.0" layoutY="35.0" text="HP: " />
       <Label layoutX="419.0" layoutY="35.0" text="Weapon: " />
       <Label fx:id="dialog" layoutX="84.0" layoutY="109.0" text="You woke up in the middle of the woods." />
-      <Label layoutX="85.0" layoutY="183.0" text="What will you do next?" />
+      <Label fx:id="next" layoutX="85.0" layoutY="183.0" text="What will you do next?" />
       <Label fx:id="HP" layoutX="108.0" layoutY="35.0" text="15" />
       <Label fx:id="weapon" layoutX="478.0" layoutY="35.0" text="Knife" />
    </children>

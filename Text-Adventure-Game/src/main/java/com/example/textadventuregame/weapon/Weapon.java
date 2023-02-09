@@ -1,4 +1,4 @@
-package com.example.textadventuregame;
+package com.example.textadventuregame.weapon;
 
 public class Weapon {
     public String weaponName;

@@ -1,4 +1,4 @@
-package com.example.textadventuregame;
+package com.example.textadventuregame.enemy;
 
 public class Goblin extends Enemy {
 
